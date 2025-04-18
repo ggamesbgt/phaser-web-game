@@ -1,15 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Shooter Game</title>
-    <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
-    <script src="js/game.js"></script>
-    <style>
-        body { margin: 0; padding: 0; background: #000; }
-        canvas { display: block; margin: 0 auto; }
-    </style>
+  <meta charset="UTF-8" />
+  <title>Phaser Web Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+    }
+    canvas {
+      display: block;
+      margin: auto;
+    }
+  </style>
 </head>
 <body>
+  <div id="game-container"></div>
+
+  <!-- Load Phaser library -->
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.js"></script>
+
+  <!-- Game logic -->
+  <script src="js/game.js"></script>
 </body>
 </html>
